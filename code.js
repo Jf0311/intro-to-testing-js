@@ -8,8 +8,18 @@ function sayHello(input){
     }else if (input === 'Pat') {
         return "Hello, Pat!";
     } else if (input === "Jane"){
-       return "Hello, Jane!"
+        return "Hello, Jane!"
     } else {
-    return "Hello, World!"}
+        return "Hello, World!"}
 }
+    function isFive(input){
+    if(input ===true){
+        return "boolean";
+    } else if (input === 5){
+      return  5;
+    }
+     else{
+         return "5"
+    }
+    }
 
