@@ -30,3 +30,10 @@ function sayHello(input){
             return false
         }
     }
+      function isVowel(input){
+        if (input === true ){
+            return true;
+        } else {
+            return false;
+        }
+}

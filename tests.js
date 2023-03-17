@@ -86,3 +86,11 @@ describe('sayHello', function(){
          expect(isEven()).toBe(false)
         })
     });
+        describe('isVowel', function (){
+            it('should be define as a function', function(){
+                expect(typeof isVowel).toBe("function")
+    })
+        it('should always return a boolean', function(){
+            expect(typeof isVowel()).toBe('boolean')
+        })
+});
